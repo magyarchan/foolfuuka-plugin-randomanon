@@ -1,0 +1,24 @@
+{
+	"name": "foolz/foolfuuka-plugin-randomanon",
+	"type": "foolz-foolfuuka-plugin",
+	"description": "Replace Anonymous with random names based on IP",
+	"version": "0.2.0",
+	"keywords": ["fake", "nguru"],
+	"homepage": "http://foolz.us",
+	"license": "Apache-2.0",
+	"authors": [{"name": "sph", "email": "sph@magyarchan.net"}],
+	"support": {
+		"email": "sph@magyarchan.net",
+		"irc": "irc://irc.freenode.net/magyarchan"
+	},
+
+	"require" : {
+		"foolz/plugin": "dev"
+	},
+
+	"extra": {
+		"name": "RandomAnon",
+		"slug": "randomanon",
+		"module": "foolfuuka"
+	}
+}
